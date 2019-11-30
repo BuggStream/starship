@@ -213,7 +213,7 @@ The prompt shows information you need while you're working, while staying sleek 
    Invoke-Expression (&starship init powershell)
    ```
 
-   #### Bash
+   #### Ion
 
    Add the following to the end of `~/.config/ion/initrc`:
 
