@@ -110,10 +110,7 @@ fi"#,
             Some(script)
         }
         Some("ion") => {
-            let script = format!(
-                "eval $({} init ion --print-full-init)",
-                starship
-            );
+            let script = format!("eval $({} init ion --print-full-init)", starship);
             Some(script)
         }
         None => {
